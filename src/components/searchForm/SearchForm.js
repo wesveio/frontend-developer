@@ -19,7 +19,7 @@ class SearchForm extends Component {
 	}
 
 	requestAPI = (searchInputValue) => {
-		const urlSiteBase = 'http://agenciabluefoot.vtexcommercestable.com.br';
+		const urlSiteBase = '//agenciabluefoot.vtexcommercestable.com.br';
 		/* Autocomplete */
 			fetch(`${urlSiteBase}/buscaautocomplete/?productNameContains=${searchInputValue.toLowerCase()}`)
 			.then(response => {

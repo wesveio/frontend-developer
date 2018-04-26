@@ -38,7 +38,7 @@ class Product extends Component {
 
 	requestAPI = () => {
 		// console.log(this);
-		const urlSiteBase = 'http://agenciabluefoot.vtexcommercestable.com.br';
+		const urlSiteBase = '//agenciabluefoot.vtexcommercestable.com.br';
 		if (this.props.location.key !== this.state.statekey) {
 			/* product */
 				fetch(`${urlSiteBase}/api/catalog_system/pub/products/search/?fq=productId:${this.props.match.params.productID}`)
