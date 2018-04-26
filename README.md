@@ -6,6 +6,11 @@ Como as requests da api não retornam com liberação de cross origin, é import
 
 Os produtos na vitrine da página home, são produtos que estão sendo buscados também por API na loja da FNAC, e são apenas para demonstração.
 
+## Páginas!
+- Home [OK]
+- Produto [OK]
+- Categoria [Pendente]
+
 ## O que foi utilizado?
 Neste projeto foi utilizado os seguintes itens;
 - [Facebook - create-react-app](https://github.com/facebook/create-react-app)
