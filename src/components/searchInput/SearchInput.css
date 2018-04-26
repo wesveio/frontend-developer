@@ -1,0 +1,19 @@
+.search {
+	position: relative;
+	display: block;
+    flex: 0 1 auto;
+    flex-grow: 10;
+}
+.search__form {
+	position: relative;
+}
+.search__input {
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #000;
+	font-size: 18px;
+	outline: none;
+}
