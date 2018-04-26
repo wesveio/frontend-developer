@@ -14,8 +14,8 @@ Neste projeto foi utilizado os seguintes itens;
 
 ## Instruções
 
-Clone o projeto e instale as dependecias rodando
-    $ npm install
+Clone o projeto e instale as dependecias rodando<br>
+    `$ npm install`
 
 ### `npm start`
 Para rodar a app em modo de desenvolvimento<br>
