@@ -1,3 +1,35 @@
+## Demo
+A demonstração pode ser verificado aqui: [Demo](https://friendly-morse-ffcb7b.netlify.com/)
+
+### Atenção
+Como as requests da api não retornam com liberação de cross origin, é importante desabilitar o CORS do navegador para que as requests possam ser executadas. Veja [Aqui](https://professor-falken.com/pt/general/como-deshabilitar-la-politica-del-mismo-origen-o-same-origin-policy-en-chrome/) como realizar esta tarefa no Google Chrome.
+
+Os produtos na vitrine da página home, são produtos que estão sendo buscados também por API na loja da FNAC, e são apenas para demonstração.
+
+## O que foi utilizado?
+Neste projeto foi utilizado os seguintes itens;
+- [Facebook - create-react-app](https://github.com/facebook/create-react-app)
+- [Bootstrap](http://getbootstrap.com/)
+- [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+
+## Instruções
+
+Clone o projeto e instale as dependecias rodando
+    $ npm install
+
+### `npm start`
+Para rodar a app em modo de desenvolvimento<br>
+O servidor subirá no link [http://localhost:3000](http://localhost:3000).
+
+### `npm run build`
+Constrói o app na pasta `build`.<br>
+Agrupando corretamente o React no modo de produção e otimizando a build para obter o melhor desempenho.
+A compilação é reduzida e os nomes dos arquivos incluem os hashes.
+
+
+
+
+
 # Bluefoot DEV: Teste prático para Frontend Developer
 
 
